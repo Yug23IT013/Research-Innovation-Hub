@@ -9,7 +9,7 @@ const app = express();
 // Connect to MongoDB
 connectDB();
 
-/ CORS Configuration
+// CORS Configuration
 app.use(cors({
     origin: "*", // In production, replace with your frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"],
