@@ -1,1 +1,93 @@
-dashboard
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#" id="logout">Logout</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>Welcome, <span id="username">User</span></h2>
+            <p>Manage your research projects, startups, and intellectual property rights.</p>
+        
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3>Research Projects</h3>
+                    <table>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>AI for Healthcare</td>
+                            <td>Using AI to improve diagnosis.</td>
+                        </tr>
+                        <tr>
+                            <td>Renewable Energy</td>
+                            <td>Innovative solar energy solutions.</td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <div class="card">
+                    <h3>Startups</h3>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Industry</th>
+                            <th>Funding</th>
+                        </tr>
+                        <tr>
+                            <td>GreenTech</td>
+                            <td>Sustainable Energy</td>
+                            <td>$500K</td>
+                        </tr>
+                        <tr>
+                            <td>AgriTech</td>
+                            <td>Smart Farming</td>
+                            <td>$300K</td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <div class="card">
+                    <h3>Intellectual Property</h3>
+                    <table>
+                        <tr>
+                            <th>Title</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>AI-Powered Diagnostics</td>
+                            <td>Approved</td>
+                        </tr>
+                        <tr>
+                            <td>Eco-Friendly Batteries</td>
+                            <td>Pending</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gujarat Research & Innovation Hub</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
