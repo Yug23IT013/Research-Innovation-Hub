@@ -1,17 +1,5 @@
 # Research Innovation Hub
 
-A modern web application designed to facilitate research and innovation management within an academic institution. This platform provides a centralized space for researchers, students, and faculty members to collaborate, manage projects, and track research activities.
-
-## Features
-
-- 🔐 Secure user authentication and authorization
-- 👥 User role management (Admin, Faculty, Student)
-- 📊 Interactive dashboard for project management
-- 📝 Research project creation and management
-- 👥 Team collaboration features
-- 📈 Progress tracking and reporting
-- 🔍 Advanced search and filtering capabilities
-
 ## Technologies Used
 
 ### Frontend
